@@ -1,0 +1,33 @@
+# .gitignore 内容
+#===============
+#编译输出
+target/
+*.class
+*.jar
+*.war
+
+# IDE配置
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.vscode/
+
+#日志文件
+*.log
+logs/
+
+#操作系统生成文件
+.DS_Store
+Thumbs.db
+
+#敏感配置（注意不要上传含密码的文件）
+application-dev.yml
+application-prod.yml
+*.properties
+
+#临时文件
+*.tmp
+*.swp
+*~
